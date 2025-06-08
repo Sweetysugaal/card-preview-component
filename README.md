@@ -2,7 +2,7 @@
 
 This is a responsive **Stats Preview Card Component** challenge from [Frontend Mentor](https://www.frontendmentor.io/). It displays a business stats summary with an engaging visual layout and color overlay effect.
 
-![Component Screenshot](./images/screenshot.png)
+![Component Screenshot](./images/screenshot.png.jpg)
 
 
 ---
