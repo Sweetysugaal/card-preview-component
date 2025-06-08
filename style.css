@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #090b1a;
+  font-family: "Inter", sans-serif;
+}
+
+.card-container {
+  width: 900px;
+  height: 450px;
+  margin: 10% auto 3% auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.part1 {
+  width: 100%;
+  background-color: hsl(244, 38%, 16%);
+  padding: 35px;
+}
+
+.part2 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(166, 43, 242, 0.5); /* black with 40% opacity */
+  pointer-events: none; /* allows clicks to go through */
+}
+
+.main-heading {
+  color: hsl(0, 0%, 100%);
+  text-align: left;
+  font-size: 35px;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.sub-heading {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: left;
+  line-height: 1.5;
+  margin-top: 35px;
+  font-size: 12px;
+  width: 300px;
+}
+
+article {
+  /* background-color: rebeccapurple; */
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+
+article p {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .card-container {
+    width: 90%;
+    height: 90%;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+  }
+
+  .main-heading {
+    text-align: center;
+    font-size: 27px;
+  }
+
+  .sub-heading {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    font-size: 14px;
+  }
+
+  article {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  article div {
+    margin-bottom: 25px;
+  }
+
+  article p {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 900px) {
+  .card-container {
+    width: 90%;
+    height: 90%;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+  }
+
+  .main-heading {
+    text-align: center;
+    font-size: 27px;
+  }
+
+  .sub-heading {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    font-size: 14px;
+  }
+
+  article {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  article div {
+    margin-bottom: 25px;
+  }
+
+  article p {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
